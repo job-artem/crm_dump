@@ -1,0 +1,65 @@
+[
+  {
+    "model": "crm.days",
+    "pk": 1,
+    "fields": {
+      "day": "Понедельник"
+    }
+  },
+  {
+    "model": "crm.days",
+    "pk": 2,
+    "fields": {
+      "day": "Вторник"
+    }
+  },
+  {
+    "model": "crm.days",
+    "pk": 3,
+    "fields": {
+      "day": "Среда"
+    }
+  },
+  {
+    "model": "crm.days",
+    "pk": 4,
+    "fields": {
+      "day": "Четверг"
+    }
+  },
+  {
+    "model": "crm.days",
+    "pk": 5,
+    "fields": {
+      "day": "Пятница"
+    }
+  },
+  {
+    "model": "crm.days",
+    "pk": 6,
+    "fields": {
+      "day": "Суббота"
+    }
+  },
+  {
+    "model": "crm.days",
+    "pk": 7,
+    "fields": {
+      "day": "Воскресенье"
+    }
+  },
+  {
+    "model": "crm.days",
+    "pk": 8,
+    "fields": {
+      "day": "Плавающий график, постоянно разные дни"
+    }
+  },
+  {
+    "model": "crm.days",
+    "pk": 9,
+    "fields": {
+      "day": "Не принципиально, могу и буду ходить в любые дни"
+    }
+  }
+]

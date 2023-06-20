@@ -1,0 +1,94 @@
+version: '3.9'
+
+services:
+  database:
+    container_name: Postgres
+    restart: unless-stopped
+    image: postgres:15-alpine3.17
+    environment:
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_DB: ${POSTGRES_DB}
+      PGDATA: /var/lib/postgresql/data/pgdata
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data
+    ports:
+      - published: 5432
+        target: 5432
+    healthcheck:
+      test: [ "CMD-SHELL", "sh -c 'pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}'" ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+
+  pg-backups:
+    container_name: Backup
+    image: prodrigestivill/postgres-backup-local
+    restart: unless-stopped
+    volumes:
+      - ./backup:/backups
+    links:
+      - database:database
+    depends_on:
+      - database
+    environment:
+      POSTGRES_HOST: database
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_EXTRA_OPTS: -Z9 --schema=public --blobs
+      BACKUP_KEEP_DAYS: 7
+      BACKUP_KEEP_WEEKS: 4
+      BACKUP_KEEP_MONTHS: 6
+      HEALTHCHECK_HTTP: "http://localhost:81"
+      HEALTHCHECK_INTERVAL: 15s
+      HEALTHCHECK_TIMEOUT: 5s
+      HEALTHCHECK_RETRIES: 5
+      HEALTHCHECK_START_PERIOD: 0s
+
+  django:
+    container_name: Django_dev
+    restart: unless-stopped
+    build:
+      context: backend
+      dockerfile: Dockerfile
+    command: sh -c "
+      python3 manage.py makemigrations &&
+      python3 manage.py migrate  &&
+      python3 manage.py loaddata data/time_data.json &&
+      python3 manage.py loaddata data/location.json &&
+      python3 manage.py loaddata data/section.json &&
+      python3 manage.py loaddata data/days.json &&
+      python3 manage.py loaddata data/age.json &&
+      python3 manage.py loaddata data/groups_type.json &&
+      python3 manage.py collectstatic --noinput &&
+      python3 manage.py runserver 0.0.0.0:8000
+      "
+    volumes:
+      - type: bind
+        source: ./backend/.
+        target: /backend
+      - type: bind
+        source: ./backend/static
+        target: /static
+      - type: bind
+        source: ./backend/media
+        target: /media
+    depends_on:
+      database:
+        condition: service_healthy
+    links:
+      - database
+    ports:
+      - published: 8000
+        target: 8000
+    healthcheck:
+      test: [ "CMD-SHELL", "sh -c 'curl -f http://localhost:8000/backend/api/'" ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+
+volumes:
+  pgdata:

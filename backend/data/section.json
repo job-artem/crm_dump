@@ -1,0 +1,122 @@
+[
+  {
+    "model": "crm.section",
+    "pk": 1,
+    "fields": {
+      "section": "Хатха-йога",
+      "key": "yoga_sec_1"
+    }
+  },
+  {
+    "model": "crm.section",
+    "pk": 2,
+    "fields": {
+      "section": "Хот-йога",
+      "key": "yoga_sec_2"
+    }
+  },
+  {
+    "model": "crm.section",
+    "pk": 3,
+    "fields": {
+      "section": "Флай-йога",
+      "key": "yoga_sec_3"
+    }
+  },
+  {
+    "model": "crm.section",
+    "pk": 4,
+    "fields": {
+      "section": "Йога для беременных",
+      "key": "yoga_sec_4"
+    }
+  },
+  {
+    "model": "crm.section",
+    "pk": 5,
+    "fields": {
+      "section": "Йога после родов",
+      "key": "yoga_sec_5"
+    }
+  },
+  {
+    "model": "crm.section",
+    "pk": 6,
+    "fields": {
+      "section": "Бокс",
+      "key": "mat_sec_1"
+    }
+  },
+  {
+    "model": "crm.section",
+    "pk": 7,
+    "fields": {
+      "section": "Кикбоксинг/Тайский бокс",
+      "key": "mat_sec_2"
+    }
+  },
+  {
+    "model": "crm.section",
+    "pk": 8,
+    "fields": {
+      "section": "ММА / Панкратион",
+      "key": "mat_sec_3"
+    }
+  },
+  {
+    "model": "crm.section",
+    "pk": 9,
+    "fields": {
+      "section": "Рукопашный бой / Самооборона",
+      "key": "mat_sec_4"
+    }
+  },
+  {
+    "model": "crm.section",
+    "pk": 10,
+    "fields": {
+      "section": "Айкидо",
+      "key": "mat_sec_5"
+    }
+  },
+  {
+    "model": "crm.section",
+    "pk": 11,
+    "fields": {
+      "section": "Карате",
+      "key": "mat_sec_6"
+    }
+  },
+  {
+    "model": "crm.section",
+    "pk": 12,
+    "fields": {
+      "section": "Тхеквондо",
+      "key": "mat_sec_7"
+    }
+  },
+  {
+    "model": "crm.section",
+    "pk": 13,
+    "fields": {
+      "section": "Джиуджитсу / Грепплинг",
+      "key": "mat_sec_8"
+    }
+  },
+  {
+    "model": "crm.section",
+    "pk": 14,
+    "fields": {
+      "section": "Борьба (Вольная/Самбо)",
+      "key": "mat_sec_9"
+    }
+  },
+  {
+    "model": "crm.section",
+    "pk": 15,
+    "fields": {
+      "section": "Дзюдо / Самбо",
+      "key": "mat_sec_10"
+    }
+  }
+]

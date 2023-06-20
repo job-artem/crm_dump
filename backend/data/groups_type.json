@@ -1,0 +1,16 @@
+[
+  {
+    "model": "crm.grouptype",
+    "pk": 1,
+    "fields": {
+      "class_type": "Персональные"
+    }
+  },
+  {
+    "model": "crm.grouptype",
+    "pk": 2,
+    "fields": {
+      "class_type": "Групповые"
+    }
+  }
+]

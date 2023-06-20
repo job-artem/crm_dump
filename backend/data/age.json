@@ -1,0 +1,44 @@
+[
+  {
+    "model": "crm.age",
+    "pk": 1,
+    "fields": {
+      "age": "6-11"
+    }
+  },
+  {
+    "model": "crm.age",
+    "pk": 2,
+    "fields": {
+      "age": "12-15"
+    }
+  },
+  {
+    "model": "crm.age",
+    "pk": 3,
+    "fields": {
+      "age": "16-25"
+    }
+  },
+  {
+    "model": "crm.age",
+    "pk": 4,
+    "fields": {
+      "age": "25-36"
+    }
+  },
+  {
+    "model": "crm.age",
+    "pk": 5,
+    "fields": {
+      "age": "37-50"
+    }
+  },
+  {
+    "model": "crm.age",
+    "pk": 6,
+    "fields": {
+      "age": "51+"
+    }
+  }
+]

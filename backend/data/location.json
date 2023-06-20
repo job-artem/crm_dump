@@ -1,0 +1,93 @@
+[
+  {
+    "model": "crm.location",
+    "pk": 1,
+    "fields": {
+      "location": "Позняки (Харьковская, Осокорки, Дарницкий район)"
+    }
+  },
+  {
+    "model": "crm.location",
+    "pk": 2,
+    "fields": {
+      "location": "Лесная"
+    }
+  },
+  {
+    "model": "crm.location",
+    "pk": 3,
+    "fields": {
+      "location": "Троещина"
+    }
+  },
+  {
+    "model": "crm.location",
+    "pk": 4,
+    "fields": {
+      "location": "Героев Днепра"
+    }
+  },
+  {
+    "model": "crm.location",
+    "pk": 5,
+    "fields": {
+      "location": "Оболонь"
+    }
+  },
+  {
+    "model": "crm.location",
+    "pk": 6,
+    "fields": {
+      "location": "Голосеевская"
+    }
+  },
+  {
+    "model": "crm.location",
+    "pk": 7,
+    "fields": {
+      "location": "Теремки / Ипподром / ВДНГ"
+    }
+  },
+  {
+    "model": "crm.location",
+    "pk": 8,
+    "fields": {
+      "location": "Шулявка / Нивки / Берестейка"
+    }
+  },
+  {
+    "model": "crm.location",
+    "pk": 9,
+    "fields": {
+      "location": "Отрадный / Соломенский"
+    }
+  },
+  {
+    "model": "crm.location",
+    "pk": 10,
+    "fields": {
+      "location": "Вокзальная / Университет / Льва Толстого"
+    }
+  },
+  {
+    "model": "crm.location",
+    "pk": 11,
+    "fields": {
+      "location": "Куреневка / Сырец"
+    }
+  },
+  {
+    "model": "crm.location",
+    "pk": 12,
+    "fields": {
+      "location": "Новобеличи"
+    }
+  },
+  {
+    "model": "crm.location",
+    "pk": 13,
+    "fields": {
+      "location": "Кловская / Арсенальная"
+    }
+  }
+]

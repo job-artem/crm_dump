@@ -1,0 +1,345 @@
+[
+  {
+    "model": "crm.alltime",
+    "pk": 1,
+    "fields": {
+      "time": "00:00"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 2,
+    "fields": {
+      "time": "00:30"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 3,
+    "fields": {
+      "time": "01:00"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 4,
+    "fields": {
+      "time": "01:30"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 5,
+    "fields": {
+      "time": "02:00"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 6,
+    "fields": {
+      "time": "02:30"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 7,
+    "fields": {
+      "time": "03:00"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 8,
+    "fields": {
+      "time": "03:30"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 9,
+    "fields": {
+      "time": "04:00"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 10,
+    "fields": {
+      "time": "04:30"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 11,
+    "fields": {
+      "time": "05:00"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 12,
+    "fields": {
+      "time": "05:30"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 13,
+    "fields": {
+      "time": "06:00"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 14,
+    "fields": {
+      "time": "06:30"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 15,
+    "fields": {
+      "time": "07:00"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 16,
+    "fields": {
+      "time": "07:30"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 17,
+    "fields": {
+      "time": "08:00"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 18,
+    "fields": {
+      "time": "08:30"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 19,
+    "fields": {
+      "time": "09:00"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 20,
+    "fields": {
+      "time": "09:30"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 21,
+    "fields": {
+      "time": "10:00"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 22,
+    "fields": {
+      "time": "10:00"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 23,
+    "fields": {
+      "time": "10:30"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 24,
+    "fields": {
+      "time": "11:00"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 25,
+    "fields": {
+      "time": "11:30"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 26,
+    "fields": {
+      "time": "12:00"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 27,
+    "fields": {
+      "time": "12:30"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 28,
+    "fields": {
+      "time": "13:00"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 29,
+    "fields": {
+      "time": "13:30"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 30,
+    "fields": {
+      "time": "14:00"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 31,
+    "fields": {
+      "time": "14:30"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 32,
+    "fields": {
+      "time": "15:00"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 33,
+    "fields": {
+      "time": "15:30"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 34,
+    "fields": {
+      "time": "16:00"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 35,
+    "fields": {
+      "time": "16:30"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 36,
+    "fields": {
+      "time": "17:00"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 37,
+    "fields": {
+      "time": "17:30"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 38,
+    "fields": {
+      "time": "18:00"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 39,
+    "fields": {
+      "time": "18:30"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 40,
+    "fields": {
+      "time": "19:00"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 41,
+    "fields": {
+      "time": "19:30"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 42,
+    "fields": {
+      "time": "20:00"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 43,
+    "fields": {
+      "time": "20:30"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 44,
+    "fields": {
+      "time": "21:00"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 45,
+    "fields": {
+      "time": "21:30"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 46,
+    "fields": {
+      "time": "22:00"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 47,
+    "fields": {
+      "time": "22:30"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 48,
+    "fields": {
+      "time": "23:00"
+    }
+  },
+  {
+    "model": "crm.alltime",
+    "pk": 49,
+    "fields": {
+      "time": "23:30"
+    }
+  }
+]
